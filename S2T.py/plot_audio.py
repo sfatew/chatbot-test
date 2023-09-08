@@ -14,7 +14,7 @@ obj.close()
 
 t_audio=n_sample/sample_freq   #time of audio
 
-print(n_sample)
+# print(n_sample)
 # print(t_audio)
 
 signal_array= np.frombuffer(signal_wave,dtype=np.int32)
